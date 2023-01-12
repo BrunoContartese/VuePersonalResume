@@ -10,7 +10,7 @@
           Bruno <span class="light-blue--text text--lighten-3">Contartese</span>
         </h1>
         <span>
-          A challenge-loving backend developer
+          A challenge-loving backend software engineer
         </span>
       </div>
 
