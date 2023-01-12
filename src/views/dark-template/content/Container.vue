@@ -206,9 +206,9 @@ export default {
       },
       { divider: true },
       {
-        title: 'Angular.js Framework',
-        icon : 'mdi-angularjs',
-        value: 50,
+        title: 'NestJS Framework',
+        icon: 'mdi-nodejs',
+        value: 100,
       },
       {
         title: 'C/C++',
@@ -229,7 +229,7 @@ export default {
       {
         title: 'Ubuntu Server',
         icon : 'mdi-ubuntu',
-        value: 90,
+        value: 100,
       },
       {
         title: 'CentOS Server',
@@ -271,7 +271,7 @@ export default {
       {
         title: 'AWS',
         icon : 'mdi-server',
-        value: 50,
+        value: 100,
       },
       {
         title: 'Apache',
@@ -282,7 +282,7 @@ export default {
       {
         title: 'Leadership',
         icon : 'mdi-account-group',
-        value: 80,
+        value: 100,
       },
     ],
   }),

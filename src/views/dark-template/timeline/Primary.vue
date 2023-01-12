@@ -6,16 +6,8 @@
     <v-card-text>
       <content-section
         id="timeline"
-        :title="detailed ? 'My Life in a Nutshell' : 'My Experiences'"
+        title="My Experiences"
       >
-        <template slot="actions">
-          <div>
-            <v-switch
-              v-model="detailed"
-              :label="detailed ? 'Detailed' : 'Summary'"
-            />
-          </div>
-        </template>
 
         <v-timeline
           dense
@@ -160,8 +152,8 @@ export default {
         icon: 'mdi-hospital-building',
       },
       {
-        year : 'Present',
-        title: 'Backend developer',
+        year : '2020-2021',
+        title: 'SR. Software Engineer',
         html : `<b><a href="https://estoes.me/" target="_blank">Esto es Agency</a></b><br>
                     In the present, i'm working as Sr. Backend developer at Esto Es Agency.<br>
                     Some of tasks that i do:
@@ -169,6 +161,34 @@ export default {
                       <li>Software Architecture Design and implementation</li>
                       <li>Software Develop using <a href="https://laravel.com/" target="_blank">Laravel framework</a> (Php)</li>
                       <li>Software Develop using <a href="https://adonisjs.com//" target="_blank">Adonis framework</a> (Node.js)</li>
+                    </ul>
+                  `,
+        icon: 'mdi-laptop',
+      },
+      {
+        year: '2021-2022',
+        title: 'SR. Software Engineer',
+        html: `<b><a href="https://dafiti.com.ar/" target="_blank">Dafiti</a></b><br>
+                    <ul>
+                      <li>Software Architecture Design and implementation</li>
+                      <li>Microservices</li>
+                      <li>NodeJS - Typescript, GO, PHP (Laravel)</li>
+                    </ul>
+                  `,
+        icon: 'mdi-laptop',
+      },
+      {
+        year: '2022-2023',
+        title: 'SR. Software Engineer',
+        html: `<b><a href="https://cencosud.com/" target="_blank">Cencosud SA</a></b><br>
+                    <ul>
+                      <li>Software Architecture design and implementation</li>
+                      <li>AWS Cloud Architecture design and implementation</li>
+                      <li>Microservices</li>
+                      <li>Gitlab CI/CD</li>
+                      <li>Lambda / Step functions / Kubernetes / SNS / SQS /
+Cognito, etc</li>
+                      <li>NodeJS (NestJS) - Typescript, Serverless</li>
                     </ul>
                   `,
         icon: 'mdi-laptop',
